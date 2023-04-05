@@ -12,6 +12,7 @@ public class CommonClass {
 
 	public int getLenght() {
 		int value = 15;
+		System.out.println("integer value");
 		return value;
 	}
 }
