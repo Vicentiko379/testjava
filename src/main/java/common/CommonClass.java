@@ -9,4 +9,9 @@ public class CommonClass {
 	public void generateContent(String defaultContent) {
 		defaultContent += " is done!";
 	}
+
+	public int getLenght() {
+		int value = 15;
+		return value;
+	}
 }
