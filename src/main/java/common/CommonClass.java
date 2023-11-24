@@ -8,6 +8,7 @@ public class CommonClass {
 
 	public void generateContent(String defaultContent) {
 		defaultContent += " is done!";
+		System.out.println("asdasdasdasd");
 	}
 
 	public int getLenght() {
