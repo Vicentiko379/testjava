@@ -1,8 +1,10 @@
 package common;
 
+import org.hamcrest.MatcherAssert;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.matchers.JUnitMatchers;
 
 import static org.junit.Assert.*;
 
@@ -20,6 +22,8 @@ public class CommonClassTest {
 	public void should() throws Exception {
 		CommonClass commonClass = new CommonClass();
 
-		commonClass.getCurrent();
+		String current = commonClass.getCurrent();
+
+		assertEquals("Common", current);
 	}
 }
