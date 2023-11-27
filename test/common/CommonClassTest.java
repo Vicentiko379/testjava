@@ -20,6 +20,6 @@ public class CommonClassTest {
 	public void should() throws Exception {
 		CommonClass commonClass = new CommonClass();
 
-		commonClass.generateContent("content");
+		commonClass.getCurrent();
 	}
 }
