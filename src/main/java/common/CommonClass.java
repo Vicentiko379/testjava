@@ -17,4 +17,8 @@ public class CommonClass {
 		System.out.println("integer value2");
 		return value;
 	}
+
+	public void read () {
+		System.out.println("read object time");
+	}
 }
