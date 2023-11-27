@@ -2,3 +2,4 @@
 /target/sonar
 /JavaAnalysys.iml
 /target
+/test/classes

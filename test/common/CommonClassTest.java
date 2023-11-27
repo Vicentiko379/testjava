@@ -26,4 +26,19 @@ public class CommonClassTest {
 
 		assertEquals("Common", current);
 	}
+
+	@Test
+	public void should2() throws Exception {
+		CommonClass commonClass = new CommonClass();
+
+		int current = commonClass.getLenght();
+
+		assertEquals(15, current);
+	}
+
+	@Test
+	public void should3() throws Exception {
+		CommonClass commonClass = new CommonClass();
+		commonClass.read();
+	}
 }
